@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React  from "react";
+import { NavLink } from "react-router-dom";
+import web from "../src/images/1.svg";
 
 const Home =() =>{
     return(
@@ -8,19 +10,25 @@ const Home =() =>{
           <div className="container-fluid nav_bg">
             <div className="row">
               <div className="col-10 mx-auto">
-                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                  <h1>
-                    Grow Your Business With <strong className="brand-name">Alpha Creation</strong>
-                  </h1>
-                  <h2 className="my-3">
-                    We are the team of smart developers 
-                  </h2>
-                  <div className="mt-3">
-                    <a href="" className="btn btn-outline-info"> 
-                    Get Started 
-                    </a>
+                <div className="row">
+                  <div className="col-md-6 pt-5 pt-lg-0 para order-2 order-lg-1 d-flex  justify-content-center flex-column">
+                    <h1>
+                      Grow your business with <br />
+                      <strong className="brand-name"> Alpha Creation's</strong>
+                    </h1>
+                    <h2 className="heading2">
+                      We are the team of Talented developers 
+                    </h2>
+                    <div className="mt-3">
+                      <NavLink to="service" className="btn-get-started"> 
+                      Get Started 
+                      </NavLink>
+                    </div>
                   </div>
-                </div>
+                  <div className="col-lg-6 order-1 order-lg-2 header-img">
+                    <img src={web} className="img-fluid animated" alt=""/>
+                  </div>
+                </div>  
               </div>
             </div>
           </div>
