@@ -6,7 +6,8 @@ import Home from "./Home";
 import About from "./About";
 import Service from "./Service";
 import Contact from "./Contact";
-import Navbar from "./Navbar"
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const App =() =>{
   return(
@@ -20,6 +21,7 @@ const App =() =>{
         <Home />
         <Redirect to="/" />
       </Switch>
+      <Footer />
     </div>    
   );
 }; export default App;

@@ -8,6 +8,7 @@ const Home =() =>{
       <div>
         <Common 
           name = "Grow your business with"
+          brand = "Alpha Creation's"
           imgsrc = {web} 
           visit='/service' 
           btname="Get Started"/>

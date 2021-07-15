@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React  from "react";
-import web from "../src/images/about.png";
+import web from "../src/images/aboutus.svg";
 import Common from "./Common";
 
 const About =() =>{
